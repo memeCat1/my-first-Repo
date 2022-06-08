@@ -1,0 +1,24 @@
+/*Css Variables*/
+:root{
+    --firstRGBcolor: rgba(109, 50, 187, 0.48);
+    --secondRGBcolor: rgba(90, 86, 207, 1);
+}
+
+#ColorBody{
+    background: linear-gradient(to bottom, var(--firstRGBcolor), var(--secondRGBcolor)) no-repeat;
+    height: 100vh; /*100% aber nachdem der Code, das Bildschirm grosse gecheckt hat*/
+}
+
+
+#ColorBody{
+    text-align: center;
+}
+
+button:hover{
+    box-shadow: 10px 10px 10px 10px lightblue;
+    transition: box-shadow 1000ms ease-out;
+}
+
+button{
+    border-radius: 40px;
+}
